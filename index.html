@@ -317,6 +317,7 @@ section { padding: 120px 64px; }
 }
 .proj-card.visible { opacity: 1; transform: translateY(0); }
 .proj-card:first-child { grid-column: 1 / -1; }
+.proj-card:last-child { grid-column: 1 / -1; }
 .proj-thumb {
   height: 240px; background: var(--dark);
   display: flex; align-items: center; justify-content: center;
@@ -545,7 +546,7 @@ footer {
       </div>
       <div class="about-meta">
         <div class="meta-item"><div class="meta-key">Location</div><div class="meta-val">Baluwatar, Kathmandu</div></div>
-        <div class="meta-item"><div class="meta-key">Email</div><div class="meta-val">sujeevshahi666@gmail.com</div></div>
+        <div class="meta-item"><div class="meta-key">Email</div><div class="meta-val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6516100f000013160d040d0c535353250208040c094b060a08">[email&#160;protected]</a></div></div>
         <div class="meta-item"><div class="meta-key">Speciality</div><div class="meta-val">Frontend + Technical SEO</div></div>
         <div class="meta-item"><div class="meta-key">Status</div><div class="meta-val open">● Open to work</div></div>
       </div>
@@ -615,36 +616,117 @@ footer {
 <!-- PROJECTS -->
 <section id="projects">
   <div class="s-label" data-num="04">Selected Work</div>
-  <h2 class="s-title">Projects that<em>speak for themselves.</em></h2>
+  <h2 class="s-title">Real clients,<em>real results.</em></h2>
+
   <div class="projects-layout">
+
+    <!-- Featured: GSK Karate -->
     <div class="proj-card">
-      <div class="proj-thumb"><span style="filter:grayscale(1) opacity(0.45);font-size:4rem;">🔍</span><div class="proj-thumb-label">Featured Project</div></div>
+      <div class="proj-thumb">
+        <span style="filter:grayscale(1) opacity(0.4);font-size:4rem;">🥋</span>
+        <div class="proj-thumb-label">Local SEO · Perth, AU</div>
+      </div>
       <div class="proj-body">
         <div class="proj-meta"><span class="proj-num">Project 01</span><span class="proj-year">2024</span></div>
-        <div class="proj-name">SEO-Optimised Web Platform</div>
-        <div class="proj-desc">A high-performance marketing website scoring 95+ on Google PageSpeed Insights. Structured data markup, optimised Core Web Vitals, and clean architecture built for long-term organic growth.</div>
-        <div class="proj-footer"><div class="proj-stack"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Schema Markup</span></div><a href="#" class="proj-arrow">↗</a></div>
+        <div class="proj-name">GSK Karate — Perth</div>
+        <div class="proj-desc">Full SEO campaign for a Perth-based martial arts school offering karate classes for kids and adults. Focused on local search visibility, Google Business Profile optimisation, and keyword targeting across age-specific class pages to drive enrolment enquiries.</div>
+        <div class="proj-footer">
+          <div class="proj-stack"><span>Local SEO</span><span>Google Business</span><span>Keyword Research</span><span>On-Page SEO</span></div>
+          <a href="https://www.gskarate.com" target="_blank" class="proj-arrow">↗</a>
+        </div>
       </div>
     </div>
+
+    <!-- Cobblecrete -->
     <div class="proj-card">
-      <div class="proj-thumb"><span style="filter:grayscale(1) opacity(0.45);font-size:3.5rem;">⚛️</span><div class="proj-thumb-label">React App</div></div>
+      <div class="proj-thumb">
+        <span style="filter:grayscale(1) opacity(0.4);font-size:3.5rem;">🏗️</span>
+        <div class="proj-thumb-label">Technical SEO · Sydney, AU</div>
+      </div>
       <div class="proj-body">
         <div class="proj-meta"><span class="proj-num">Project 02</span><span class="proj-year">2024</span></div>
-        <div class="proj-name">React Dashboard App</div>
-        <div class="proj-desc">A dynamic single-page application built with React, featuring component-based architecture, custom hooks, and clean state management with mobile-first responsive design.</div>
-        <div class="proj-footer"><div class="proj-stack"><span>React</span><span>JavaScript</span><span>CSS3</span></div><a href="#" class="proj-arrow">↗</a></div>
+        <div class="proj-name">Cobblecrete Australia</div>
+        <div class="proj-desc">SEO strategy for a Sydney-based epoxy flooring and concrete resurfacing company. Conducted technical audits, resolved crawl errors, and built service-page content strategies targeting high-intent keywords like "epoxy flooring Sydney" and "garage floor coatings".</div>
+        <div class="proj-footer">
+          <div class="proj-stack"><span>Technical Audit</span><span>Content SEO</span><span>GSC</span><span>SEMrush</span></div>
+          <a href="https://cobblecrete.com.au" target="_blank" class="proj-arrow">↗</a>
+        </div>
       </div>
     </div>
+
+    <!-- Akira Homes -->
     <div class="proj-card">
-      <div class="proj-thumb"><span style="filter:grayscale(1) opacity(0.45);font-size:3.5rem;">📊</span><div class="proj-thumb-label">Analytics Tool</div></div>
+      <div class="proj-thumb">
+        <span style="filter:grayscale(1) opacity(0.4);font-size:3.5rem;">🏠</span>
+        <div class="proj-thumb-label">SEO Strategy · Sydney, AU</div>
+      </div>
       <div class="proj-body">
         <div class="proj-meta"><span class="proj-num">Project 03</span><span class="proj-year">2023</span></div>
-        <div class="proj-name">SEO Performance Reporter</div>
-        <div class="proj-desc">A visual reporting interface combining Google Search Console data, GA4 metrics, and SEMrush insights into one clean, client-facing dashboard built to reduce reporting time.</div>
-        <div class="proj-footer"><div class="proj-stack"><span>JavaScript</span><span>GA4</span><span>GSC</span><span>SEMrush</span></div><a href="#" class="proj-arrow">↗</a></div>
+        <div class="proj-name">Akira Homes — Custom Builders</div>
+        <div class="proj-desc">SEO campaign for an award-winning luxury custom home builder in Sydney. Targeted competitive keywords in the high-value construction niche including "custom home builders Sydney" and "luxury designer homes", supported by technical audits and structured data implementation.</div>
+        <div class="proj-footer">
+          <div class="proj-stack"><span>Keyword Strategy</span><span>Schema Markup</span><span>Link Building</span><span>GA4</span></div>
+          <a href="https://www.akirahomes.com.au" target="_blank" class="proj-arrow">↗</a>
+        </div>
       </div>
     </div>
+
+    <!-- Sadaf Bridal -->
+    <div class="proj-card">
+      <div class="proj-thumb">
+        <span style="filter:grayscale(1) opacity(0.4);font-size:3.5rem;">💍</span>
+        <div class="proj-thumb-label">Local SEO · Western Sydney, AU</div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-meta"><span class="proj-num">Project 04</span><span class="proj-year">2024</span></div>
+        <div class="proj-name">Sadaf Bridal — Hair & Makeup</div>
+        <div class="proj-desc">Local SEO and content optimisation for a mobile bridal hair and makeup artist in Western Sydney. Built visibility for high-intent searches like "bridal makeup Western Sydney" and "mobile makeup artist Sydney" through on-page optimisation and local citations.</div>
+        <div class="proj-footer">
+          <div class="proj-stack"><span>Local SEO</span><span>Content Optimisation</span><span>Google Business</span></div>
+          <a href="https://sadafbridal.com.au" target="_blank" class="proj-arrow">↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Remyworx -->
+    <div class="proj-card">
+      <div class="proj-thumb">
+        <span style="filter:grayscale(1) opacity(0.4);font-size:3.5rem;">🔧</span>
+        <div class="proj-thumb-label">Technical SEO · Sydney, AU</div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-meta"><span class="proj-num">Project 05</span><span class="proj-year">2024</span></div>
+        <div class="proj-name">Remyworx — Waterproofing</div>
+        <div class="proj-desc">Full SEO campaign for a Sydney waterproofing and leak repair specialist. Developed service-specific landing pages targeting suburbs and keywords like "waterproofing Sydney" and "emergency leak repairs", combined with technical fixes and backlink strategy.</div>
+        <div class="proj-footer">
+          <div class="proj-stack"><span>Technical SEO</span><span>Landing Pages</span><span>Link Building</span><span>GSC</span></div>
+          <a href="https://remyworx.com.au" target="_blank" class="proj-arrow">↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frontend Coming Soon -->
+    <div class="proj-card" style="opacity:0.6;">
+      <div class="proj-thumb" style="background: repeating-linear-gradient(45deg, #111 0px, #111 10px, #0a0a0a 10px, #0a0a0a 20px);">
+        <span style="filter:grayscale(1) opacity(0.3);font-size:3.5rem;">⚛️</span>
+        <div class="proj-thumb-label">Coming Soon</div>
+      </div>
+      <div class="proj-body">
+        <div class="proj-meta"><span class="proj-num">Project 06</span><span class="proj-year">2025</span></div>
+        <div class="proj-name">Frontend Project</div>
+        <div class="proj-desc">A frontend development project is currently in progress. Built with React and modern CSS — combining clean UI with SEO-ready architecture. Check back soon.</div>
+        <div class="proj-footer">
+          <div class="proj-stack"><span>React</span><span>JavaScript</span><span>CSS3</span></div>
+          <a href="#" class="proj-arrow" style="opacity:0.3;">↗</a>
+        </div>
+      </div>
+    </div>
+
   </div>
+
+  <p style="text-align:center; margin-top:48px; font-size:0.72rem; color:var(--gray); letter-spacing:0.15em; text-transform:uppercase;">
+    + 15 more AU clients across trades, retail, health & hospitality
+  </p>
 </section>
 
 <!-- TESTIMONIALS -->
@@ -666,7 +748,7 @@ footer {
     <div class="reveal">
       <p class="contact-big-text">I'm currently <strong>open to frontend developer roles</strong> in Kathmandu. If you're building something that needs speed, precision, and search visibility — let's talk.</p>
       <div>
-        <div class="contact-line"><span class="c-label">Email</span><span class="c-val">sujeevshahi666@gmail.com</span></div>
+        <div class="contact-line"><span class="c-label">Email</span><span class="c-val"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="0576706f606073766d646d6c333333456268646c692b666a68">[email&#160;protected]</a></span></div>
         <div class="contact-line"><span class="c-label">Location</span><span class="c-val">Baluwatar, Kathmandu, Nepal</span></div>
         <div class="contact-line"><span class="c-label">Availability</span><span class="c-val">Immediate · Full-time</span></div>
         <div class="contact-line"><span class="c-label">Response</span><span class="c-val">Within 24 hours</span></div>
@@ -694,7 +776,7 @@ footer {
   <div class="footer-right">Frontend Developer & SEO Specialist · Kathmandu, Nepal</div>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const dot = document.getElementById('c-dot');
 const ring = document.getElementById('c-ring');
 let mx=0, my=0, rx=0, ry=0;
@@ -730,18 +812,4 @@ document.querySelectorAll('.skill-row').forEach(el => skillIO.observe(el));
 
 function handleForm(e) {
   e.preventDefault();
-  const btn = document.getElementById('cf-btn-el');
-  btn.textContent = 'Message Sent ✓';
-  btn.style.background = 'transparent';
-  btn.style.color = 'var(--white)';
-  btn.style.clipPath = 'none';
-  btn.style.border = '1px solid var(--border)';
-  setTimeout(() => {
-    btn.textContent = 'Send Message';
-    btn.style.cssText = '';
-    e.target.reset();
-  }, 3500);
-}
-</script>
-</body>
-</html>
+  const btn = document.getElementB
